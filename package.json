@@ -3,13 +3,14 @@
     "version": "1.0.0",
     "description": "A sample project to demonstrate creating a package.json file",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "start": "node index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yunghavy/my-new-project.git"
+        "url": "git+https://github.com/yunghavy/mpesa-stk.git"
     },
     "keywords": [
         "sample",
@@ -19,10 +20,14 @@
     "author": "Yung Havy",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/yunghavy/my-new-project/issues"
+        "url": "https://github.com/yunghavy/mpesa-stk/issues"
     },
-    "homepage": "https://github.com/yunghavy/my-new-project#readme",
+    "homepage": "https://github.com/yunghavy/mpesa-stk#readme",
     "dependencies": {
-        "express": "^4.19.2"
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "ngrok": "^5.0.0-beta.2",
+        "request": "^2.88.2"
     }
 }
